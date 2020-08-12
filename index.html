@@ -245,6 +245,15 @@
 
 	<script>
 
+function diff_time(dt2, dt1) 
+ {
+
+  var diff =(dt2.getTime() - dt1.getTime()) / 1000;
+//   diff /= 60;
+  return Math.abs(Math.round(diff));
+  
+ }
+
 		/* jQuery(window).on( 'load', function(){
 
 			// Google Map
@@ -280,16 +289,12 @@
 		jQuery(document).ready(function($) {
 
 			// CountDown
-			var oneDay = 2937;
+			let presentDay = new Date();
+			let futureTime = new Date("August 27, 2020 00:00:00");
 			var newDate4 = new Date() + 72000;
-			var today = new Date();
-			var future = new Date(2020, 08, 27);
-			var dif = Math.abs(future.getTime() - today.getTime());
-			var newSec = Math.floor(dif/oneDay);
-			var newCount = new Date() + newSec;
 			
 			// $('#countdown-ex4').countdown({until: newDate4, format: 'HMS'});
-			$('#countdown-ex4').countdown({until: newSec, format: 'DHMS'});
+			$('#countdown-ex4').countdown({until: diff_time(futureTime, presentDay), format: 'DHMS'});
 
 		});
 
