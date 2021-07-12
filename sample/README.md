@@ -17,7 +17,7 @@ and orange has a relaxing and exciting feel, i used both colours
 to make my design feel luxurious and exciting to the eye.
 
 ## Margin:
-I used a margin line of 24px on the mobile and 24px and 50px on the web
+I used a margin line of 24pixel on the mobile and 24pixel and 50pixel on the web
 by doing that it would be easy for the user to be able to scan 
 information fast without straining the eye. The design wouldnt be 
 congested by doing
