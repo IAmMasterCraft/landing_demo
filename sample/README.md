@@ -31,4 +31,4 @@ Roboto font was used for the UI design, the font is a friendly and and easy
 to read font which is a appropriate for a bank app
 
 ## Figma Design:
-[Here is the link to the figma design: https://www.figma.com/file/b5KP6Wr7xImr0dxsu4fhb0/Veegil-media?node-id=11%3A184](https://www.figma.com/file/b5KP6Wr7xImr0dxsu4fhb0/Veegil-media?node-id=11%3A184)
+[Here is the link to the figma design: https://www.figma.com/file/478xiNGjwQ9E4wIM7m34dm/Veegil-media?node-id=0%3A1](https://www.figma.com/file/478xiNGjwQ9E4wIM7m34dm/Veegil-media?node-id=0%3A1)
